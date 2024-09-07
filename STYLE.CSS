@@ -1,0 +1,423 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #251f1f;
+    z-index: 1000;
+}
+header.hero {
+    background-image: url('WALLPAPERrrrrrrrrrrrrrrrrrrrr.jpeg');
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 100px 0;
+}
+
+header.hero .hero-content {
+    max-width: 600px;
+    margin: auto; 
+}
+header.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;   
+}
+header.hero p {
+    font-size: 1.2rem;
+}
+header.hero .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#nav-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10 ;
+}
+
+nav ul {
+    height: 45px;
+    list-style: none;
+    background-color: #3a2d2d;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+nav ul li {
+    margin: 9px;
+}
+
+nav ul li a {
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #c58f8f;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+} 
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 1400px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* --------CONTACT--------- */
+.contact {
+    background-image: url(qqqqqqqqpppppppppp.jpeg);
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+}
+.contact h2{
+    font-size: 5rem;
+    margin-bottom: 50px;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-form, .contact-info {
+    background-image: url(lllllllllllllllllllppppppppppppppppppp.jpeg);
+    background-size: contain;
+    padding: 20px;
+    color: rgb(250, 250, 250);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #55ff06;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    background-color: #4f14ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #fbfafa;
+}
+
+.contact-info a:hover {
+    color: #fffefe;
+}
+.contact-container {
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.contact-form, .contact-info {
+        max-width: 45%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+/* -------REGISTER-------- */
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.register h2{
+    color: #fcfcfc;
+    text-align: center;
+} 
+.register{
+    background-image: url(uuuuuuuupppppppp.jpeg);
+}
+
+.register form label {
+    margin-top: 10px;
+}
+
+.register form input, .register form select, .register form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 98%;
+}
+
+.register form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.register form button:hover {
+    background-color: #0056b3;
+}
+
+/* -----Event Highlights------ */
+.container img{
+    border-top-left-radius: calc(0.8rem - 1px);
+    border-top-right-radius: calc(0.8rem - 1px);
+    
+ }
+
+.features {
+    background-image: url(uuuuuuuupppppppp.jpeg);
+    padding: 50px 0;
+}
+
+.features h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+}
+/* --------SCHEDULE---- */
+
+nav ul li a {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.schedule {
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(ngggggggggggggggggggggggggggggg.jpeg);
+}
+
+.schedule-item {
+     background-image: url(Free\ Vector\ _\ Gradient\ geometric\ blue\ technology\ background.jpeg);
+    background-color: rgb(31, 255, 1);
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 20);
+    max-width: 600px;
+    margin-bottom: 50px;
+    color: #b0a6a6;
+    text-transform: uppercase;
+}
+.schedule h2{
+    font-size: 5rem;
+    margin-bottom: 50px;
+    color: #c58f8f;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+.schedule h3{
+    margin-bottom: 50px;
+    color: #edede1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* --------SPEAKERS-------- */
+.speakers {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(ddddddddddddddkkkkkkkkkkkk.jpeg);
+    background-size: contain;
+    border-image-repeat: round;
+}
+
+.speakers :hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+.schedule :hover{
+     transform: scale(1.03);
+     transition: 0.3s;
+}
+.venue :hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+.features :hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.speakers h1{
+    margin-bottom: 5rem ;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.speakers h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    margin-bottom: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    
+}
+.speaker-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.speaker {
+    background-color: rgb(126, 27, 219);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 500);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+.speaker img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.speaker h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.speaker p {
+    margin-bottom: 10px;
+    color: #fcfcfc;
+}
+/* -------venue-------- */
+header nav ul li {
+    display: inline;
+    margin: 0 15px
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.venue {
+    background-image: url(WALLPAPERrrrrrrrrrrrrrrrrrrrr.jpeg);
+    padding: 60px 20px;
+    background-size: contain;
+    text-align: center;
+}
+.venue h2 {
+    font-size: 2.8em;
+    margin-bottom: 60px;
+    color: #c58f8f;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.venue p {
+    font-size: 1.9em;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+.venue-details {
+    background-image: url(lllllllllllllllllllppppppppppppppppppp.jpeg);
+    padding: 30px;
+    margin: 60px auto;
+    max-width: 750px;
+    border-left: 6px solid #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 8);
+}
+.venue-details h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    color: #fcfcfc;
+}
+.venue-details p {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+.venue-details ul {
+    padding-left: 20px;
+}
+.venue-details ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
